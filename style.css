@@ -23,6 +23,7 @@ main {
     padding: 30px;
     border-radius: 5px;
     color: #ffffff;
+    border: 2px solid #FFD700;
 
 }
 
@@ -59,10 +60,16 @@ nav li a {
 
 nav li a:hover {
     background-color: #FFD700;
+    
 }
 
 .motto{
     text-align: center;
+    color:#FFD700;
+    font-style: italic;
+    font-size: 1.2em;
+    margin: 20px;
+    
 }
 
 
