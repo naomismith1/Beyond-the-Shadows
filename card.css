@@ -2,8 +2,11 @@
     background-color: #4a4a4a;
     border-radius: 8px;
     padding: 20px;
-    margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    vertical-align: top;
 }
 
 .card img {
