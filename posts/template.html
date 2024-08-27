@@ -20,12 +20,27 @@
     </nav>
 <main>
   <hr>
-  <h2>Sources:</h2>
-  <hr>
-  <footer>
-  <p>&copy; 2024 Beyond the Shadows All rights reserved.</p>
-  <hr>
-</footer>
+  
+  <h2>Leave a Comment</h2>
+<form id="commentForm">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br>
+    <label for="comment">Comment:</label><br>
+    <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br>
+    <input type="submit" value="Submit Comment">
+</form>
+
+<h2>Comments</h2>
+<div id="commentSection">
+    <!-- Comments will be displayed here -->
+</div>
+   
 </main>
+<footer>
+
+  <h2>Sources:</h2>
+  <p>&copy; 2024 Beyond the Shadows All rights reserved.</p>
+</footer>
+<script src="comments.js"></script>
   </body>
 </html>
